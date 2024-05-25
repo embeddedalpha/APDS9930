@@ -1,0 +1,16 @@
+../I2C/I2C.c:16:13:pin_setup	40	static
+../I2C/I2C.c:39:6:I2C_Clock_Enable	16	static
+../I2C/I2C.c:55:6:I2C_Clock_Disable	16	static
+../I2C/I2C.c:71:6:I2C_Reset	16	static
+../I2C/I2C.c:91:6:I2C_Init	16	static
+../I2C/I2C.c:169:6:I2C_Master_Start	24	static
+../I2C/I2C.c:185:6:I2C_Master_Address	24	static
+../I2C/I2C.c:201:6:I2C_Master_Send_Byte	16	static
+../I2C/I2C.c:208:6:I2C_Master_Send_Buffer	32	static
+../I2C/I2C.c:228:6:I2C_Master_NACK	16	static
+../I2C/I2C.c:233:6:I2C_Master_ACK	16	static
+../I2C/I2C.c:238:6:I2C_Master_Stop	16	static
+../I2C/I2C.c:243:6:I2C_Master_Write_Register	16	static
+../I2C/I2C.c:252:5:I2C_Master_Read_Register	24	static
+../I2C/I2C.c:266:5:I2C_Master_Receive_Byte	24	static
+../I2C/I2C.c:278:6:I2C_Master_Write_Register_Block	24	static
