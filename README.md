@@ -18,7 +18,8 @@ Welcome to the APDS9930 Sensor Library! This repository contains a comprehensive
 
 - STM32F4x
 - APDS9930 sensor module
-- I2C connection capability
+- USB-to-UART Converter
+- Jumper Cables
 
 ### Installation
 
