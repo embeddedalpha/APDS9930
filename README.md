@@ -33,9 +33,9 @@ Welcome to the APDS9930 Sensor Library! This repository contains a comprehensive
 
 - **Ambient Light Logger**: Log ambient light levels to a Virtual Com Port. [Link](Example/Ambient%20Light%20Logger/) 
 
-- **Proximity-Based Device Activation**: Activate a device when an object is detected within a specified range.[Link](Example/Automatic%20Display%20Brightness/)
+- **Proximity-Based Device Activation**: Activate a device when an object is detected within a specified range.
 
-- **Automatic Display Brightness**: Adjust display brightness based on ambient light conditions.
+- **Automatic Display Brightness**: Adjust display brightness based on ambient light conditions. [Link](Example/Automatic%20Display%20Brightness/)
 
 ## Contributing
 
