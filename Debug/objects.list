@@ -1,4 +1,4 @@
-"./ADS9930/APDS9930.o"
+"./APDS9930/APDS9930.o"
 "./Console/Console.o"
 "./DMA/DMA.o"
 "./GPIO/GPIO.o"

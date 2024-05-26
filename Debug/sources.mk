@@ -22,7 +22,7 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-ADS9930 \
+APDS9930 \
 Console \
 DMA \
 GPIO \

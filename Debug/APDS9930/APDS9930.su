@@ -1,0 +1,10 @@
+../Inc/main.h:108:26:Delay_ms	24	static
+../APDS9930/APDS9930.c:22:6:Write_Reg	16	static
+../APDS9930/APDS9930.c:27:9:Read_Reg	16	static
+../APDS9930/APDS9930.c:33:10:Read_Word	24	static
+../APDS9930/APDS9930.c:44:6:APDS9930_Proximity_Interrupt_Clear	16	static
+../APDS9930/APDS9930.c:53:6:APDS9930_ALS_Interrupt_Clear	16	static
+../APDS9930/APDS9930.c:61:6:APDS9930_Prox_and_ALS_Interrupt_Clear	16	static
+../APDS9930/APDS9930.c:69:6:APDS9930_DeInit	16	static
+../APDS9930/APDS9930.c:82:6:APDS9930_Init	56	static
+../APDS9930/APDS9930.c:157:6:APDS9930_Get_Lux	64	static
