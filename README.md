@@ -41,6 +41,10 @@ Welcome to the APDS9930 Sensor Library! This repository contains a comprehensive
 
 Contributions are welcome! Please fork this repository, create a new branch for your feature or bugfix, and submit a pull request. Make sure to follow the coding standards and include relevant tests.
 
+## Testing
+
+I invite y'all to clone the repo, test the driver and document any issues you "might" face 😁 (you should not)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
