@@ -10,7 +10,7 @@
 
 #include "math.h"
 #include "fastmath.h"
-#include "../APDS9930/APDS9930_Defs.h"
+#include "APDS9930_Defs.h"
 
 I2C_Config APDS9930_I2C;
 
@@ -152,35 +152,7 @@ bool APDS9930_Init(APDS9930 *config)
 	return retval;
 }
 
-void APDS9930_Read_Data(APDS9930 *config)
-{
-//	APDS9930_Prox_and_ALS_Interrupt_Clear(config);
-	config->Proximity_Data = Read_Word(0x18);
 
-	float CH0_data = 0.0;
-	float CH1_data = 0.0;
-	float DF = 52.0;
-	float IAC[3];
-	float LPC = 0.0;
-	float ALSIT = 400.0;
-	float AGAIN = 1.0;
-	float GA = 0.49;
-	float B = 1.862;
-	float C = 0.746;
-	float D = 1.291;
-
-	CH0_data = Read_Word(APDS9930_Regs.Ch0DATAL);
-	CH1_data = Read_Word(APDS9930_Regs.Ch1DATAL);
-
-	// LUX Equation:
-
-	IAC[1] =   CH0_data - B*CH1_data;
-	IAC[2] = C*CH0_data - D*CH1_data;
-	IAC[0] = MAX(IAC[1], IAC[2]);
-	LPC = GA * DF / (ALSIT * AGAIN);
-	config->Lux_Data = IAC[0] * LPC;
-
-}
 
 void APDS9930_Get_Lux(APDS9930 *config)
 {
