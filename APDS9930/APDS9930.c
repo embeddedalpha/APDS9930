@@ -168,3 +168,8 @@ void APDS9930_Get_Lux(APDS9930 *config)
 	float lpc  = GA * DF / (ALSIT * 1);
 	config->Lux_Data = iac * lpc;
 }
+
+void APDS9930_Get_Proximity(APDS9930 *config)
+{
+	config->Proximity_Data = Read_Word(APDS9930_Regs.PDATAL);
+}

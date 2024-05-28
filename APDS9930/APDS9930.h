@@ -39,10 +39,13 @@ typedef struct APDS9930{
 
 void APDS9930_DeInit(APDS9930 *config);
 bool APDS9930_Init(APDS9930 *config);
+
 void APDS9930_Proximity_Interrupt_Clear(APDS9930 *config);
 void APDS9930_ALS_Interrupt_Clear(APDS9930 *config);
 void APDS9930_Prox_and_ALS_Interrupt_Clear(APDS9930 *config);
+
 void APDS9930_Get_Lux(APDS9930 *config);
+void APDS9930_Get_Proximity(APDS9930 *config);
 
 
 #endif /* APDS9930_H_ */
